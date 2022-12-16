@@ -6,7 +6,6 @@ int main() {
     char lista[10][20];
     char target[20];
     int pos = 0;
-  
 
     for(int i=0;i<10;i++){
         for(int j=0;j<20;j++) {
@@ -14,7 +13,6 @@ int main() {
             lista[i][j] = ' ';
         }
     }
-  
 
     for(int i=0;i<10;i++){
         cin >> lista[i];
@@ -26,4 +24,3 @@ int main() {
     }else{
         cout << "non presente";
     }
-
